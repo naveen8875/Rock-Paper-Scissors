@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Prompt:wght@800&display=swap');
+*
+{cursor: grab;}
 .main
 {
     display: flex;
