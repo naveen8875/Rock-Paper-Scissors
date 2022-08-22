@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Prompt:wght@800&display=swap');
 
 .main
-{
+{   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,6 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 #rock:hover
 {
@@ -174,4 +175,6 @@
     transition: all 0.5s ease;
 }
 *
-{cursor: grab;}
+{
+    cursor: grab;
+}
