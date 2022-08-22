@@ -20,7 +20,7 @@
     justify-content: center;
     
 }
-#rock:hover
+#rock:focus
 {
     box-shadow: 5px 8px  rgba(83, 143, 137, 0.527);
     transition: all 0.3s ease;
