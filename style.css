@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Prompt:wght@800&display=swap');
+.main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top : 10vw;
+}
+#rock
+{
+    height: 250px;
+    width: 250px;
+    position: absolute ;
+    right: 69vw;
+    background-color: rgb(106, 184, 176);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rock:hover
+{
+    box-shadow: 5px 8px  rgba(83, 143, 137, 0.527);
+    transition: all 0.3s ease;
+}
+#rock h1
+{
+    text-align: center;
+    padding: 15px;
+    font-size: 100px;
+    text-shadow: 4px 4px rgba(83, 143, 137, 0.527);
+    
+}
+#rock p
+{
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    font-size: 4vw;
+    color: white;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.455);
+}
+#paper
+{
+    height: 250px;
+    width: 250px;
+    position: absolute ;
+    right: 40vw;
+    background-color: rgb(122, 106, 184);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#paper:hover
+{
+    box-shadow: 5px 8px  rgba(89, 78, 134, 0.527);
+    transition: all 0.3s ease;
+}
+#paper h1
+{
+    text-align: center;
+    padding: 15px;
+    font-size: 100px;
+    text-shadow: 4px 4px rgba(89, 78, 134, 0.527);
+}
+#paper p
+{
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    font-size: 4vw;
+    color: white;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.455);
+}
+#scissors
+{
+    height: 250px;
+    width: 250px;
+    position: absolute ;
+    right: 11vw;
+    background-color: rgb(163, 184, 106);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#scissors:hover
+{
+    box-shadow: 5px 8px  rgba(123, 139, 80, 0.527);
+    transition: all 0.3s ease;
+}
+#scissors h1
+{
+    text-align: center;
+    padding: 15px;
+    font-size: 100px;
+    text-shadow: 4px 4px rgba(123, 139, 80, 0.527);
+}
+#scissors p
+{
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    font-size: 4vw;
+    color: white;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.455);
+}
+#reset
+{
+    height: 250px;
+    width: 250px;
+    position: absolute ;
+    right: 40vw;
+    top: 24vw;
+    background-color: rgb(184, 101, 101);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#reset:hover
+{
+    box-shadow: 5px 8px  rgba(124, 68, 68, 0.527);
+    transition: all 0.3s ease;
+}
+#reset h1
+{
+    text-align: center;
+    padding: 15px;
+    font-size: 100px;
+    text-shadow: 4px 4px rgba(124, 68, 68, 0.527);
+}
+#reset p
+{
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    font-size: 4vw;
+    color: white;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.455);
+}
+
+#cc
+{
+    text-align: center;
+    padding: 15px;
+    font-size: 100px; 
+    position: absolute ;
+    right: 73vw;
+    top: 25vw;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.26);
+    transition: all 0.5s ease;
+}
+#ccpick
+{
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-size: 45px;
+    position: absolute ;
+    right: 59vw;
+    top: 23vw;   
+    font-family: 'Silkscreen', cursive; 
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.13);
+    /* transition: all 0.5s ease; */
+}
+#demo
+{
+    text-align: center;
+    padding: 15px;
+    font-size: 70px; 
+    position: absolute ;
+    right: 4vw;
+    font-family: 'Silkscreen', cursive;
+    top: 25vw;   
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.13);
+    transition: all 0.5s ease;
+}
